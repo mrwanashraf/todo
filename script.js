@@ -2,7 +2,7 @@ let todoList = document.querySelector("ul"); // getting the current list of todo
 let todo = document.querySelector("#todo"); // getting the todo textbox.
 let button = todo.nextSibling.nextSibling; // getting the todo button.
 let currentElement = null; // keeping track of which element is being selected.
-let input = document.querySelector("#input");
+let input = document.querySelector("#input"); // getting the input parent
 
 document.addEventListener("click", function buttonClicked(e) {
     let li = e.target.parentNode;
@@ -104,7 +104,7 @@ function editTodo() {
     todo.blur();
 }
 
-// toggle the selected list to bechecked or not
+// toggle the selected list to be checked or not
 function checkTodo(e) {
     let p = e.target.previousSibling;
     p.classList.toggle("strike");
