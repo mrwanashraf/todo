@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+}
+
+input[type="text"] {
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+.fas, .far {
+    cursor: pointer;
+    user-select: none;
+}
+
+.strike {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.fa-circle {
+    margin-right: auto;
+}
+
+
+li span {
+    margin-right: auto;
+}
+
+.fa-check {
+    margin-right: 2%;
+}
+
+.fa-minus-circle {
+    margin-right: 2%;
+}
+
+.fa-plus-circle, .fa-edit {
+    font-size: 150%;
+}
+
+.hide {
+    display: none;
+}
+
+section {
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 2vw;
+    background-color: #0b0b0b;
+    color: white;
+    padding: 1%;
+}
+
+ul {
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+}
+
+#input {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-around;
+    background-color: #0b0b0b;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+#todo {
+    width: 80vw;
+    border: none;
+}
+
+#todo::placeholder {
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
